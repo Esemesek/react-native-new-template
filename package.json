@@ -1,23 +1,22 @@
 {
-  "name": "project_name",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "ProjectName",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "react-native start",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
+  "dependencies": {
+    "react": "16.8.1",
+    "react-native": "0.59.0-rc.1"
+  },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
+    "@babel/core": "^7.3.3",
     "@babel/runtime": "^7.3.1",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
     "metro-react-native-babel-preset": "^0.51.1",
-    "react-test-renderer": "^16.8.2"
-  },
-  "dependencies": {
-    "react": "^16.8.2",
-    "react-native": "^0.58.4"
+    "react-test-renderer": "16.8.1"
   },
   "jest": {
     "preset": "react-native"
