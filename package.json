@@ -1,0 +1,25 @@
+{
+  "name": "project_name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/runtime": "^7.3.1",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "metro-react-native-babel-preset": "^0.51.1",
+    "react-test-renderer": "^16.8.2"
+  },
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-native": "^0.58.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
