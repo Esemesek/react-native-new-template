@@ -3,9 +3,9 @@ module.exports = {
   // package.json, index.json, android/, ios/
   placeholderName: "ProjectName",
 
-  // Directory of template within repository
+  // Directory with template
   templateDir: "./template",
 
-  // Path to script to be executed in postInit
-  postInit: undefined
+  // Path to script, which will be executed after init
+  postInitScript: undefined
 };
